@@ -1,0 +1,49 @@
+<!--Degradê.html-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="style.css"/>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Testando o degradê  </title>
+</head>
+<body>
+
+    <div class="boxgradiente">
+        <h1> Nathalia de Macedo Martins</h1> 
+    </div>
+    
+</body>
+</html>
+
+<!--style.css-->
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+.boxgradiente{
+    width: 100%;
+    padding:500px 0;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to left,blue,orangered,yellow);
+    background-size: 500% 100%;
+    animation: degrade 5s infinite alternate;
+}
+
+@keyframes degrade {
+    0%{
+        background-position-x: 0%;
+
+    }
+    100%{
+        background-position-x:100%
+    }
+
+}

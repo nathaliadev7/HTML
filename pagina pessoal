@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        #elemento{
+            background-color: whitesmoke;
+            width:"1000";
+            height:"5000";
+            margin: 400px;
+            padding: 50px;
+            border: 1px solid black;
+
+        }
+
+        #bottons{
+            background-color: white;
+            width:"300";
+            height:"200";
+            margin: 106.4px;;
+            padding: 10px;
+            border-radius: 50%;
+            border-style:inherit;
+            color:black
+            
+        }
+
+    </style>
+    
+</head>
+<body background="https://i.pinimg.com/736x/78/be/91/78be91a71bcf17793f197c87dab5a6c5.jpg" width="720" heigh="1118">
+    <div>
+        <center id="elemento" style="font-family:'Courier New'; font: size 30px;"> Nathalia de Macedo Martins<br>
+            Dev Full Stack
+   
+        </center>
+    </div>
+    <div>
+        <a id="bottons"
+            href="file:///C:/Users/aluno/Nathalia.html/sobre.html"> Sobre
+        </a>
+     
+    </div>
+   
+
+</body >
+</html>
+
+
+
+pagina sobre:
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        #sobre{
+            background-color:black;
+            font-size: 26px;
+            font-family: Georgia;
+            color:aliceblue;
+            text-align: center;
+            padding: 1px;
+            margin:100px
+        
+           
+            
+        }
+
+        
+      
+        #icones{
+            background-color: white;
+            border-radius: 10%;
+            position:sticky;
+            margin: 200px;
+
+
+        }
+    
+
+       
+    </style>
+   
+</head>
+<body  id="bg" background="https://i.pinimg.com/736x/78/be/91/78be91a71bcf17793f197c87dab5a6c5.jpg" width="720" heigh="1118" >
+
+    <p style=text-align:center id="sobre" > Oi, tudo bem? Meu nome é Nathalia de Macedo Martins,<br>
+         atualmente tenho 20 anos, estou na Faculdade de engenharia da computação,<br>
+          e curso de Dev full Stack na Infinity School.<br>
+
+    </p>
+
+    <p style=text-align:center id="sobre" > Atualmente estou em mês de teste para monitoria,<br>
+            também vendo no ônibus, trabalho como freelancer para marketing digital.<br>
+            Não saio com muita frequência, mas gosto de ir a praia, shows e shoppings, principalmente pelas<br>
+            bibliotecas.<br>
+
+   </p>
+
+   <p style=text-align:center id="sobre" > Tenho 4 tatuagens e penso em fechar os braços com elas,<br>
+        todas pequenas. Adoro música, amo o fato de ser baiana, sou espírita e workaholic<br>
+        Meu hobbie favorito é ler, também ja me aventurei um pouco como escritora.<br>
+        Sempre quis ser a "versão feminina do Tony Stark" e estou correndo atrás disso,<br>
+        Meu tio me apresentou o mundo da programação, e hoje, tenho plena certeza de que é o que quero fazer<br>
+
+
+    </p>
+
+    <p style=text-align:center id="sobre" > Segue abaixo algumas  das minhas redes socias, basta clicar nos icones:</p>
+
+    <a href="https://web.facebook.com/nathalia.macedo.7902564">
+        <img id="icones" src="https://img.icons8.com/ios11/600/000000/facebook.png" width="200" height="200">
+    </a>
+
+    <a href="https://github.com/nathaliadev7">
+        <img id="icones" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" width="200" height="200">
+    </a>
+
+   
+
+
+    
+
+    
+
+    
+</body>
+</html>
+

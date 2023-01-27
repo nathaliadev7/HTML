@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="STYLE.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Efeito Neon </title>
+</head>
+<body>
+    <div class="boxgradiente">
+        <button> Enviar </button>
+    </div>
+</body>
+</html>
+
+
+
+*{
+    margin:0;
+    padding:0;
+     box-sizing: border-box; /* faz com que o navegador não calcule a dimensão de um elemento somando */
+}
+
+body{
+    background-color: black;
+}
+
+button{
+    position:absolute;
+    top:50%;
+    left:50%;/*  determinando que o botão ficará exatamente no meio da página */
+    transform:trasnlate(-50%,-50%);/* Não vai ficar exatamente certinho, então utilizaremos o trasnlate para acertar*/
+    padding:15px 45px;
+    font-size: 20px;/*determinando o tamanho da fonte*/
+    background:transparent;
+    border:2px solid red;/*criando uma borda vermelha em volta do botão*/
+    color: red;/*determinando que a cor da letra será igual a da borda*/
+    cursor:pointer;/*determinando que quando o cursor estiver por cima do botão, vai mudar para a mãozinha*/
+
+}
+
+/*O hover serve para adicionar características a um elemento quando o usuário estiver com o mouse posicionado sobre ele.*/
+button:hover{
+    box-shadow: 0 0 15px red ;/* box shadow significa caixa de sombras, os dois zeros, são eixo x e y, e estão zerados por que queremos o efeito neon centralizado no botão de enviar. 15px é a distância que a sombra vai, e red é a cor dessa sombra;*/
+}

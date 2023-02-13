@@ -3,23 +3,14 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <link rel="stylesheet" href="style.css"/>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Testando o degradê  </title>
-</head>
-<body>
-
-    <div class="boxgradiente">
-        <h1> Nathalia de Macedo Martins</h1> 
-    </div>
     
-</body>
-</html>
-
-<!--style.css-->
-
+    <style>
+    
 *{
     margin:0 auto;/*Ao passar o margin assim,
     estamos definindo que as margens superior e inferior são igual a zero,
@@ -58,3 +49,16 @@ chamamos com o @ e definimos um nome para nossa animação, e então passamos as
     }
 
 }
+    </style>
+</head>
+<body>
+
+    <div class="boxgradiente">
+        <h1> Nathalia de Macedo Martins</h1> 
+    </div>
+    
+</body>
+</html>
+
+
+
